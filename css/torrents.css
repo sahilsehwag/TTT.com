@@ -1,0 +1,82 @@
+.index-item {
+  font-size: 115%;
+}
+.coll {
+  padding-top: 3px;
+}
+.torrent {
+  margin: auto 3%;
+}
+.download,
+.magnet {
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  font-size: 110%;
+}
+.download:hover,
+.magnet:hover {
+  transition: all 0.3s linear;
+}
+.download {
+  color: #00e600;
+}
+.magnet {
+  color: rgba(255,51,51,0.9);
+}
+.tor-tbl {
+  margin-left: 20px;
+  font-size: 110%;
+  color: #1a1a1a;
+}
+tr,
+th,
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+td {
+  font-weight: 400;
+}
+tr:nth-child(1) {
+  color: rgba(255,255,255,0.95);
+  font-size: 110%;
+  text-align: left;
+}
+tr {
+  background: #f2f2f2;
+}
+td,
+th {
+  border: 4px double rgba(166,166,166,0.1);
+}
+tr:hover td {
+  background: #3385ff;
+  transition: all 0.1s linear;
+}
+tr:hover a:hover,
+tr:hover a,
+tr:hover td {
+  color: #fff;
+  transition: all 0.1s linear;
+}
+tr:hover .download:hover,
+tr:hover .magnet:hover {
+  color: #000;
+}
+tr:hover th:hover {
+  color: #3cf;
+}
+td,
+th {
+  padding: 15px;
+}
+td:nth-child(1),
+th:first-child {
+  text-align: left;
+}
+th {
+  background: linear-gradient(rgba(51,51,51,0.9), #333);
+  border: 2px solid rgba(255,255,255,0.5);
+  border-bottom: 4px solid #fff;
+}

@@ -1,0 +1,63 @@
+.image-card.mdl-card {
+  width: 256px;
+  height: 256px;
+  margin-bottom: 40px;
+}
+.image-card > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0,0,0,0.2);
+}
+.image-card-author {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+#img5 {
+  background: url("../images/bootstrap_logo.png") center/cover;
+}
+#img7 {
+  background: url("../images/css3_logo.png") center/cover;
+}
+#img8 {
+  background: url("../images/camera_logo.png") center/cover;
+}
+#img10 {
+  background: url("../images/html5_logo.png") center/cover;
+}
+#img12 {
+  background: url("../images/javascript_logo.png") center/cover;
+}
+#img13 {
+  background: url("../images/jquery_logo.png") center/cover;
+}
+#img15 {
+  background: url("../images/py_logo.png") center/cover;
+}
+#img16 {
+  background: url("../images/less_logo.png") center/cover;
+}
+#img17 {
+  background: url("../images/sass_logo.png") center/cover;
+}
+#img18 {
+  background: url("../images/map_logo.png") center/cover;
+}
+#img20 {
+  background: url("../images/node_logo.png") center/cover;
+}
+#img21 {
+  background: url("../images/php_logo.png") center/cover;
+}
+#img25 {
+  background: url("../images/rails1_logo.png") center/cover;
+}
+#img26 {
+  background: url("../images/scala_logo.jpg") center/cover;
+}
+#img28 {
+  background: url("../images/ruby1_logo.png") center/cover;
+}
+#img29 {
+  background: url("../images/vs_logo.png") center/cover;
+}

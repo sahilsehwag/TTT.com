@@ -1,0 +1,48 @@
+.text{
+	padding: 12px;
+	width: 300px;
+}
+#submit{
+	background: #3385FF;
+	border: 0px;
+	color: #FFFFFF;		
+}
+body{
+	background: url('../images/keyboard.jpg') center/cover;	
+	display: flex;
+	font-size: 14px;
+	font-weight: 200;
+	text-align: center;
+}
+form{	
+	margin: auto;	
+}
+.btn{
+	display: inline-block;
+	width: 49%;	
+}
+.btn:hover{
+	outline: 2px solid #3385FF;
+	color: #3385FF;
+	background: #FFFFFF;
+}
+select{
+	padding: 5px;
+	width: 100%;
+	font-size: 16px;
+	color: #FFFFFF;
+	background: rgba(0,0,0,0);
+}
+option{
+	/*background: rgba(0,0,0,0.8);
+	color: rgba(255,255,255,0.9)*/;
+	color: black;
+}
+form p{
+	padding-top: 3px;	
+}
+#pc{	
+	color: #FFFFFF;
+	font-size: 16px;
+	float: right;
+}

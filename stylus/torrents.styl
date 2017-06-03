@@ -1,0 +1,61 @@
+@import 'variables.styl'
+
+.index-item
+	font-size 115%
+.coll
+	padding-top 3px
+	
+.torrent
+	margin auto 3%
+	
+.download, .magnet
+	position relative
+	top 5px
+	display inline-block
+	font-size 110%
+.download:hover, .magnet:hover
+	transition all 0.3s linear
+.download
+	color #00e600
+.magnet
+	color rgba(255,51,51,0.9)
+.tor-tbl
+	margin-left 20px
+	font-size 110%	
+	color #1a1a1a
+tr,th,td
+	text-align center
+	vertical-align middle
+td
+	font-weight 400
+tr:nth-child(1)
+	// color #ff3333
+	color rgba(255,255,255,0.95)
+	font-size 110%
+	text-align left	
+tr
+	background #F2F2F2
+td,th
+	border 4px double rgba(166,166,166,0.1)
+	// border 2px solid rgba(255,255,255,1)
+tr:hover
+	td		
+		background primaryColor
+		transition all 0.1s linear
+	a:hover,a,td
+		color #FFFFFF
+		transition all 0.1s linear
+	.download:hover, .magnet:hover
+		color #000000
+	th:hover
+		color #33ccff
+td,th
+	padding 15px
+td:nth-child(1),th:first-child
+	text-align left
+th
+	// background rgba(51,51,51,0.95)
+	background linear-gradient(rgba(51,51,51,0.9) , rgba(51,51,51,1))
+	border 2px solid rgba(255,255,255,0.5)
+	// border-bottom 4px solid rgba(255,255,255,1)
+	border-bottom 4px solid rgba(255,255,255,1)

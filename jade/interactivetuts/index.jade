@@ -1,0 +1,43 @@
+html
+	head.
+		<?php 
+			include 'variables.inc.php';
+			include $mainDir.'inc/head.inc.php';
+		?>
+		<link rel="stylesheet" href="<?php echo $mainDir.'css/interactivetuts.css';?>"/>
+	body
+		//- header.
+			<?php 			
+				include $mainDir.'inc/header.inc.php';
+			?>
+
+
+		main.container-fluid
+			.row
+				#ide.col-lg-8
+					#editor.col-lg-12.mdl-shadow--2dp
+						code.
+							#include &#60;iostream&#62;
+
+							using namespace std;
+							int main(void){
+								//ENTER CODE HERE
+
+								return 0;
+							}
+				#tutorial.col-lg-4
+					#tut-content.col-lg-12.mdl-shadow--2dp
+			
+			nav
+				ul.row
+					a(href="#"): li.col-lg-3.hvr-underline-from-center HOME
+					a(href="#"): li.col-lg-3.hvr-underline-from-center ABOUT
+					a(href="#"): li.col-lg-3.hvr-underline-from-center CONTACT
+					a(href="#"): li.col-lg-3.hvr-underline-from-center LICENSE
+			
+
+
+		//- footer.
+			<?php 			
+				include $mainDir.'inc/footer.inc.php';
+			?>
